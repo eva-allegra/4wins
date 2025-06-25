@@ -13,7 +13,7 @@ class board {
 
     public:
     void place (int position);
-    int counter ();
+    int height (int column);
 };
 
 

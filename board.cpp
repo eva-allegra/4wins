@@ -8,6 +8,6 @@ void board::place(int position) {
 
 }
 
-int board::counter() {
+int board::height(int column) {
 
 }
