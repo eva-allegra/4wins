@@ -7,4 +7,12 @@ add_executable(4wins main.cpp
         player.cpp
         player.h
         board.cpp
-        board.h)
+        board.h
+        human.cpp
+        human.h
+        horizontalBot.cpp
+        horizontalBot.h
+        verticalBot.cpp
+        verticalBot.h
+        randomBot.cpp
+        randomBot.h)
