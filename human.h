@@ -5,10 +5,11 @@
 #ifndef HUMAN_H
 #define HUMAN_H
 
+#include "player.h"
 
-
-class human {
-
+class human : player {
+    public:
+    int check(int* board) override;
 };
 
 

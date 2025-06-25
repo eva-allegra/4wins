@@ -3,3 +3,7 @@
 //
 
 #include "human.h"
+
+int human::check(int *board) {
+    // hier muss die Logik rein
+}

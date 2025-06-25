@@ -5,10 +5,12 @@
 #ifndef HORIZONTALBOT_H
 #define HORIZONTALBOT_H
 
+#include "player.h"
 
 
-class horizontalBot {
-
+class horizontalBot : player{
+    public:
+    int check(int* board) override;
 };
 
 

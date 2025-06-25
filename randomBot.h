@@ -5,10 +5,11 @@
 #ifndef RANDOMBOT_H
 #define RANDOMBOT_H
 
+#include "player.h"
 
-
-class randomBot {
-
+class randomBot :player{
+    public:
+    int check(int* board) override;
 };
 
 

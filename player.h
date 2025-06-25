@@ -15,7 +15,7 @@ class player {
     player();
     ~player(){};
 
-    int check(int* board);
+    virtual int check(int* board);
 
 
 };

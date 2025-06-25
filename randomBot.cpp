@@ -3,3 +3,7 @@
 //
 
 #include "randomBot.h"
+
+int randomBot::check(int *board) {
+    // hier muss die Logik rein
+}
